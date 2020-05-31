@@ -1,0 +1,31 @@
+<internal_error>
+<sub_system>ERR</sub_system>
+<callstack>
+	0x7f5e86d35fc7: ccl_err + 0x7fc7 (_ZN15ERR_STACKWALKER15get_stack_traceEPPKviiPv + 0xb1)
+	0x7f5e86d38e4a: ccl_err + 0xae4a (_Z14err_terminatorv + 0x4b)
+	0x7f5e82cdf796: stdc++.so.6 + 0x63796 (_ZN10__cxxabiv111__terminateEPFvvE + 0x6)
+	0x7f5e82cdf7c3: stdc++.so.6 + 0x637c3
+	0x7f5e82cdf9ee: stdc++.so.6 + 0x639ee
+	0x7f5e82d30867: stdc++.so.6 + 0xb4867 (_ZSt20__throw_out_of_rangePKc + 0x67)
+	   0x46c6c1: quartus_npp + 0x6c6c1 (_ZN31NPP_STATE_MACHINE_ENCODING_INFO32process_state_machines_encodingsERSt14basic_ifstreamIcSt11char_traitsIcEE + 0x1db)
+	   0x46d49e: quartus_npp + 0x6d49e (_ZN31NPP_STATE_MACHINE_ENCODING_INFO21extract_encoding_infoEP10CMP_FACADEP25NVD_STATE_MACHINE_LOCATER + 0x5a6)
+	   0x498761: quartus_npp + 0x98761 (_ZN12NPP_SGATE_OP9executingEP10CMP_FACADERbS2_b + 0x58f)
+	   0x426e1c: quartus_npp + 0x26e1c (_ZN13NPP_FRAMEWORK7executeEv + 0x38)
+	0x7f5eb1ebb08c: comp_qexe + 0x2008c (_Z18qexe_standard_mainP14QEXE_FRAMEWORKPPK22QEXE_OPTION_DEFINITIONiPPKc + 0x872)
+	   0x4425ed: quartus_npp + 0x425ed (_Z8npp_mainiPPKc + 0x59)
+	0x7f5e895b1ef0: ccl_msg + 0x49ef0 (_Z15msg_main_threadPv + 0x10)
+	0x7f5e868fbd4c: ccl_thr + 0x5d4c (thr_final_wrapper + 0xc)
+	0x7f5e895b1fa5: ccl_msg + 0x49fa5 (_Z18msg_thread_wrapperPFPvS_ES_ + 0x5b)
+	   0x4caf2b: quartus_npp + 0xcaf2b (_Z18mem_thread_wrapperPFPvS_ES_ + 0x9b)
+	0x7f5e86d36def: ccl_err + 0x8def (_Z18err_thread_wrapperPFPvS_ES_ + 0x27)
+	0x7f5e868fc112: ccl_thr + 0x6112 (thr_thread_wrapper + 0x15)
+	0x7f5e895b3ee2: ccl_msg + 0x4bee2 (_Z12msg_exe_mainiPPKcPFiiS1_E + 0xa3)
+	   0x42795f: quartus_npp + 0x2795f (main + 0x26)
+	0x7f5e820eab97: c.so.6 + 0x21b97 (__libc_start_main + 0xe7)
+	   0x426a41: quartus_npp + 0x26a41
+</callstack>
+<error>*** Fatal Error: Unhandled Exception</error>
+<date>Sun Feb  2 23:21:46 2020
+</date>
+<version>Version 15.0.0 Build 145 04/22/2015 SJ Web Edition</version>
+</internal_error>

@@ -1,0 +1,10 @@
+*_Implmnt
+*.xcf
+*.log
+synlog.tcl
+*~
+*.bak
+*.swp
+*_tb
+*.vcd
+build

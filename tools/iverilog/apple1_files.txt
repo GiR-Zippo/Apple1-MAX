@@ -1,0 +1,10 @@
+../rtl/cpu/arlet_6502.v
+../rtl/cpu/arlet/cpu.v
+../rtl/cpu/arlet/ALU.v
+../rtl/uart/async_tx_rx.v
+../rtl/uart/uart.v
+../rtl/ram.v
+../rtl/rom_wozmon.v
+../rtl/rom_basic.v
+../rtl/apple1.v
+apple1_tb.v
